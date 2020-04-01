@@ -71,6 +71,10 @@ alter table planeten add massa varchar(20) Null;
 
 -- Level 5 Is there time 
     alter table Planeten add column bezoek_datum varchar 20 null;
-
     delete from planeten where name is Null;
 ------------------------
+
+
+-- Level 6 Nieuwe planeet 
+    alter table Planeten add id int not null auto_increment primary key;
+--------------------------
