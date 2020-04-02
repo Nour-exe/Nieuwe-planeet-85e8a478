@@ -78,3 +78,8 @@ alter table planeten add massa varchar(20) Null;
 -- Level 6 Nieuwe planeet 
     alter table Planeten add id int not null auto_increment primary key;
 --------------------------
+
+
+-- Level 7 Verwarrend
+    update Planeten set name = 'Teenalp' where id = 5;
+---------------------
